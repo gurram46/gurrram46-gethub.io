@@ -1,0 +1,87 @@
+<html>
+<link rel= "stylesheet" href="css/style.css"> 
+<style>
+input[type=text], input[type=password],input[type=date],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.cancelbtn{
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+
+<h2><p><font size="25" color =#000000>vouting portial </font></p></h2>
+<form action="Registration of loan.php" method="post">
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <label><b>First Name</b></label>
+    <input type="text" placeholder="Enter your First Name" name="fname" required>
+<label><b>Last Name</b></label>
+    <input type="text" placeholder="Enter your Last Name" name="lname" required>
+     <label><b>Aadhar no:</b></label>
+    <input type="text" placeholder="Enter Aadhar no." name="aadharno" required>
+         <label><b>date of birth</b></label>
+    <input type="date" placeholder="Enter Issue date" name="isdt" required>
+    <label><b>voting date</b></label>
+    <input type="date" placeholder="Enter Issue date" name="isdt" required>
+         <label><b>E-mail id</b></label>
+    <input type="email" placeholder="Enter Email-id" name="email" required>
+
+             <label><b>phone no</b></label>
+    <input type="text" placeholder="Enter phone no " name="ph" required>
+
+             <label><b>Address</b></label>
+    <input type="text" placeholder="Enter Address " name="ad" required>
+
+             <label><b>Pin code</b></label>
+    <input type="text" placeholder="Enter pin code" name="pc" required>
+
+    <p>By Registering you accept that Above mentioned data is Correct </p>
+
+    <div class="clearfix">
+      <a href="https://www.google.com/search?q=e-voting&rlz=1C1RXQR_enUS979US979&oq=e-&aqs=chrome.0.69i59j69i57j0i67l2j0i512j69i60l2j69i61.28524j0j7&sourceid=chrome&ie=UTF-8"><button type="button" class="cancelbtn">Cancel</button></a>
+      <button type="submit" class="signupbtn"><a href="vouting system.html">click here to vote </a></button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
