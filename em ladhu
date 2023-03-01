@@ -1,0 +1,12 @@
+<!DOCTYPE html> 
+<html> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Magic</title>  
+<link rel="stylesheet" href="css/style.css"> 
+<link rel="stylesheet" href="css/stylegood.css"> <button type="submit" class="signupbtn"><a href="regestring.html">Em ladhu</a></button> 
+<p><font size="10" color =#000000>Em ladhu</font></p> 
+</head> 
+</body> 
+</html> 
